@@ -1,0 +1,9 @@
+assign[+(5,8,9,10,11,12) to x][*(2,3,4,5,6,9) to k];//ciao gimmy
+if(< x k)
+print/*ciao gimmy*/(x)
+else
+for(<2 9)
+do//ciao gimmy
+print(k,x)
+end//ciao gimmy
+/*ciaooo*/

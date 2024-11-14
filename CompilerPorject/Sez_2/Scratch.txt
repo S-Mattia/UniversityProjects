@@ -1,0 +1,8 @@
+
+
+
+
+
+            assign 300 to _d;     // distanza
+       assign 10 to t; // tempo
+print       /*ciaooo*/    (* d t)

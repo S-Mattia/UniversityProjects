@@ -1,0 +1,12 @@
+read(x,y);
+if(< x y)
+print(x)
+else
+for(>= y 0)
+do//commento
+{
+print(x,y);
+assign[- x 1 to x][ - y 1 to y]
+}
+end//commento
+/*commento*/
