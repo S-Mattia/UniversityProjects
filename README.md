@@ -40,6 +40,7 @@ This project involved designing a database for a food delivery application, from
 *(Project for a University exam)* 
 This project involves the creation of a Client-Server mail application built with Java, JavaFX, and Maven, following the MVC pattern. The server handles incoming requests from multiple clients, processes them, and manages user email data stored in files. The client application, with a graphical user interface, allows users to send, receive and manage emails. The communication between the server and client is done via sockets.
 (Files were used to store data instead of a database due to a specific requirement of the project.). The application is built and managed with Maven, and development was done using IntelliJ IDEA Ultimate as IDE. `(/ServerClientMailApplication)`
+Demo video:  [`https://youtu.be/-gEK6whg0ww`](https://youtu.be/-gEK6whg0ww)
 
 ### Deliverables:  
 
