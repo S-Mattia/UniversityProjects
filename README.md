@@ -56,7 +56,7 @@ This project simulates the chain reaction of a nuclear power plant, using multi-
 
 ## Deliverables:
 - `src` Source code of the project
-- `include` Header File of different module
+- `include` Header Files of different modules
 - `library` contain the library used in the project
 - `config` contain the configuration file
   
