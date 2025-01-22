@@ -36,7 +36,7 @@ This project involved designing a database for a food delivery application, from
    - An `SQL` script to create the PostgreSQL database.
 
 
-## 4. Server & Client EMail Application 
+## 4. Server & Client Email Application 
 *(Project for a University exam)* 
 This project involves the creation of a Client-Server mail application built with Java, JavaFX, and Maven, following the MVC pattern. The server handles incoming requests from multiple clients, processes them, and manages user email data stored in files. The client application, with a graphical user interface, allows users to send, receive and manage emails. The communication between the server and client is done via sockets.
 (Files were used to store data instead of a database due to a specific requirement of the project.). The application is built and managed with Maven, and development was done using IntelliJ IDEA Ultimate as IDE. `(/ServerClientMailApplication)`
@@ -49,7 +49,18 @@ This project involves the creation of a Client-Server mail application built wit
 
 - Model: all the classes that allow the server to manage, read and view the data stored into the files. `(SharedModel)`
 
-## 5. Website for Accommodation Facility
+
+## 5. Nuclear Power Plant simulation project:
+*(Project for a University exam)* 
+This project simulates the chain reaction of a nuclear power plant, using multi-process coding in a Unix environment. The simulation involves inter-process communication (IPC) and synchronization mechanisms to manage and coordinate different roles including: master, atom, activator, inhibitor, and feeder processes. The master process starts the simulation and handles statistics, while other processes simulate energy production, inhibition, activation, split and waste generation. The project uses Unix concepts such as Process control, Semaphores, Synchronization, Shared memory, Message queues, and Signal handling. `(/NuclearPowerPlantSimulation)`
+
+## Deliverables:
+- `src` Source code of the project
+- `include` Header File of different module
+- `library` contain the library used in the project
+- `config` contain the configuration file
+  
+## 6. Website for Accommodation Facility
 A web development project for an accommodation facility, featuring front-end technologies (HTML, CSS, JavaScript) and back-end functionality in PHP.
 
 [`https://www.domuslanghe.it`](https://www.domuslanghe.it)
