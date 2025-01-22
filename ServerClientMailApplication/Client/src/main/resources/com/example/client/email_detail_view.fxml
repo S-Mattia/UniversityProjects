@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.*?>
+
+<TabPane fx:id="tabPane" prefHeight="450" prefWidth="550" stylesheets="@../../../css/style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.DetailController">
+
+<Tab closable="false" text="Deatil Email">
+    <BorderPane>
+        <center>
+            <VBox spacing="10" alignment="TOP_LEFT">
+                <Label fx:id="emailSubjectLabel" styleClass="label-title" />
+                <Label fx:id="emailSenderLabel" styleClass="label-subtitle" />
+                <TextArea fx:id="emailBodyArea" editable="false" wrapText="true"/>
+            </VBox>
+        </center>
+        <bottom>
+            <HBox spacing="10" alignment="CENTER_RIGHT">
+                <Button fx:id="emailButtonDelete"  styleClass="button-red" onAction="#onDeleteButtonClick" text="Delete"  />
+                <Button fx:id="emailButtonReply" text="Reply" onAction="#onReplyButtonClicked" />
+                <Button fx:id="emailButtonForward" text="Forward" onAction="#onForwardButtonClicked"  />
+                <Button fx:id="emailButtonReplyAll" text="Reply ALL" onAction="#onReplyAllButtonClicked" />
+                <Button fx:id="emailButtonClose" styleClass="button-red"  text="Close" onAction="#onCloseButton"  />
+            </HBox>
+        </bottom>
+    </BorderPane>
+</Tab>
+    <Tab closable="true" text="" fx:id="Tab"><content>
+        <VBox prefHeight="116" prefWidth="168" spacing="10" >
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="8.0" prefWidth="368.0" style="-fx-padding: 3">
+                    <children >
+                        <Label  alignment="TOP_LEFT" contentDisplay="CENTER" prefHeight="18.0" prefWidth="189.0" text="Adress:" />
+                        <!-- Errore Mail -->
+                        <Label fx:id="errorMail" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="10" prefWidth="310" styleClass="label-error" text="Empty Field" />
+                    </children>
+                </HBox>
+                <TextField fx:id="mail" onKeyTyped="#checkInput" />
+                <Label contentDisplay="CENTER" text="Object" />
+                <TextField fx:id="objectField"/>
+                <Label contentDisplay="CENTER" text="E-mail Text" />
+                <TextArea fx:id="text" prefHeight="350" prefWidth="300" wrapText="true">
+                    <cursor>
+                        <Cursor fx:constant="TEXT" />
+                    </cursor>
+                </TextArea>
+                <VBox alignment="BOTTOM_RIGHT" prefHeight="200" prefWidth="100">
+                    <children>
+                        <Button alignment="BOTTOM_RIGHT" onAction="#onSendButtonClick" prefHeight="40" prefWidth="79" text="Send" />
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </content>
+    </Tab>
+
+</TabPane>
+

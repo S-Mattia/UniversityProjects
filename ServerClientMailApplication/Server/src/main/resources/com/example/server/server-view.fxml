@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" spacing="15" style="-fx-padding: 20;" stylesheets="@../../../css/style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.server.ServerController">
+
+    <!-- Titolo della finestra -->
+    <Label fx:id="labelServer" styleClass="label-title" text="Server Main" />
+
+    <!-- Contenitore per i pulsanti -->
+    <HBox spacing="10">
+        <Button fx:id="stopButton" disable="true" onAction="#onStopButton" prefHeight="40.0" prefWidth="90.0" text="Stop" textAlignment="CENTER" />
+        <Button fx:id="startButton" onAction="#onStartButton" prefHeight="40.0" prefWidth="90.0" text="Start" textAlignment="CENTER" />
+      <VBox alignment="TOP_RIGHT" prefHeight="40.0" prefWidth="380.0">
+         <children>
+              <Button fx:id="cleanButton" alignment="TOP_CENTER" contentDisplay="CENTER" onAction="#onCleanButton" prefHeight="40.0" prefWidth="91.0" text="Clean" textAlignment="CENTER" />
+         </children>
+      </VBox>
+    </HBox>
+    <!-- Area di testo per il log -->
+    <TextArea fx:id="log" disable="true" prefHeight="300.0" promptText="Server logs will appear here..." wrapText="true" />
+</VBox>
