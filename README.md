@@ -10,15 +10,16 @@
 This project involves the implementation of various algorithms and data structures in Java and C. It includes sorting algorithms, data structures like priority queues and graphs, and dynamic programming techniques. `(/AlgorithmProject)`
 
 ### Deliverables:
-   - Implementation of Marge Sort and Quick Sort algorithms, optimized for datasets up to 20 million records. `(EX1)`
-   - Dynamic Programming Edit distance calculation with memoization. `(EX2)`
+   - Implementation of Marge Sort and Quick Sort algorithms, optimized for datasets up to 20 million records. `(EX1)` **[`Demo Video`](https://youtu.be/1d4FPnIMZi8)**
+   - Dynamic Programming Edit distance calculation with memoization. `(EX2)`**[`Demo Video`](https://youtu.be/PcQRNddp0pI)**
    - Implementation od data Structures Including priority queues and graph structures. `(EX3_4)`
-   - Prim's algorithm using a priority queue and graph. `(EX3_4)`
+   - Prim's algorithm using a priority queue and graph. `(EX3_4)` **[`Demo Video`](https://youtu.be/NTorSjNKTdY)**
    
 
 ## 2. Custom Programming Language
 *(Project for a University exam)*
 This project involves the creation of a basic programming language for the JVM, including a lexer and parser, as well as a simple DFA (Deterministic Finite Automaton) project. The lexer converts the source code into tokens, while the parser processes these tokens to generate Jasmin bytecode instructions. `(/CompilerProject)`
+**[`Demo Video`](https://youtu.be/FXhreJDFMgU)**
 
 ### Deliverables:
    - Some exercises on DFA, Parser, Lexer. `(SEZ_1 SEZ_3 SEZ_4 SEZ_FC)`
@@ -40,7 +41,7 @@ This project involved designing a database for a food delivery application, from
 *(Project for a University exam)* 
 This project involves the creation of a Client-Server mail application built with Java, JavaFX, and Maven, following the MVC pattern. The server handles incoming requests from multiple clients, processes them, and manages user email data stored in files. The client application, with a graphical user interface, allows users to send, receive and manage emails. The communication between the server and client is done via sockets.
 (Files were used to store data instead of a database due to a specific requirement of the project.). The application is built and managed with Maven, and development was done using IntelliJ IDEA Ultimate as IDE. `(/ServerClientMailApplication)`
-Demo video:  [`https://youtu.be/-gEK6whg0ww`](https://youtu.be/-gEK6whg0ww)
+[`Demo Video`](https://youtu.be/-gEK6whg0ww)
 
 ### Deliverables:  
 
@@ -54,6 +55,7 @@ Demo video:  [`https://youtu.be/-gEK6whg0ww`](https://youtu.be/-gEK6whg0ww)
 ## 5. Nuclear Power Plant simulation project:
 *(Project for a University exam)* 
 This project simulates the chain reaction of a nuclear power plant, using multi-process coding in a Unix environment. The simulation involves inter-process communication (IPC) and synchronization mechanisms to manage and coordinate different roles including: master, atom, activator, inhibitor, and feeder processes. The master process starts the simulation and handles statistics, while other processes simulate energy production, inhibition, activation, split and waste generation. The project uses Unix concepts such as Process control, Semaphores, Synchronization, Shared memory, Message queues, and Signal handling. `(/NuclearPowerPlantSimulation)`
+[`Demo Video`](https://youtu.be/xmnROg0XTN0)
 
 ## Deliverables:
 - `src` Source code of the project
